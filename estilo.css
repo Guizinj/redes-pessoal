@@ -41,7 +41,7 @@ html, body{
             width: 50px;
             margin: 8px;
             border-radius: 50%;
-            transition: 0.3s;
+            transition: 0.4s;
             border: 5px solid transparent;
         }
         section#redes-sociais img:hover{
