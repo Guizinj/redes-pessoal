@@ -22,9 +22,9 @@ html, body{
             border-radius: 33px;
         }
         iframe#home{
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.885);
             position: absolute;
-            top: 5px;
+            top: 3.5px;
             left: 8.2px;
             width: 223px;
             height: 480px;
