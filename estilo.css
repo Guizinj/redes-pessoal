@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html, body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            background: linear-gradient(to right, rgba(229, 135, 135, 0.459), rgb(255, 255, 255), rgba(229, 135, 135, 0.39) );
+        }
+        section#telefone{
+            width: 240px;
+            height: 490px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: url('imagens/ios-telaT.jpg') no-repeat center center;
+            background-size: cover;
+            border-radius: 33px;
+        }
+        iframe#home{
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 5px;
+            left: 8.2px;
+            width: 223px;
+            height: 480px;
+            border-radius: 31px;
+           
+        }
+        section#redes-sociais{
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        section#redes-sociais img{
+            width: 50px;
+            margin: 8px;
+            border-radius: 50%;
+            transition: 0.3s;
+            border: 5px solid transparent;
+        }
+        section#redes-sociais img:hover{
+            border-color:  rgba(229, 135, 135, 0.459);
+            
+            transform: scale(1.1);
+        }
