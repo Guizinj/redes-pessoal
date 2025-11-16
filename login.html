@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estiloslogin/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                foto
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a), faça login e tenha acesso ao seu dashboard</p>
+                <form action="login.php" method="post" autocomplete="on">
+                <p>
+                    <label for="ilogin">Login:</label> <input nome="login" id="ilogin" type="text" required>
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="8">
+                </p>
+                <p>
+                    <input type="submit" value="Entrar">
+                </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
