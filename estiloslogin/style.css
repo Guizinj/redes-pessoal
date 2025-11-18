@@ -11,9 +11,19 @@ lilás: #5f2c82
     box-sizing: border-box;
 }
 body, html{
-    background-color: #5f2c82;
+    background-color: #602c82d5;
     width: 100vw;
     height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.897);
+}
+p{
+    text-align: justify;
+    text-align: center;
+    padding-top: 10px;
 }
 main{
     position: relative;
@@ -58,6 +68,7 @@ section#login > div#formulario {
 form > div > input[type=submit] {
     display: block;
     background-color: #49a09d;
+    font-size: 1.0em;
     color: white;
     width: 100%;
     padding: 10px;
