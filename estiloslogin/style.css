@@ -97,8 +97,9 @@ form > div > input{
     height: 100%;
     width: calc(100% - 44.39px);
     transform: translateY(-11px);
+    padding: 3px;
 }
 div.campo > input:focus-within {
     background-color: white;
-    border: transparent;
+    border: none;
 }
