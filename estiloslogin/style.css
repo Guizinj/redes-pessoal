@@ -27,7 +27,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 260px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.4s, heigth 0.4s;
@@ -38,7 +38,8 @@ form > div.campo{
     width: 100%;
     height: 40px;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid #5f2c82;
 }
 form label{
     display: none;
@@ -60,11 +61,13 @@ form > div > input[type=submit] {
     color: white;
     width: 100%;
     padding: 10px;
+    margin-top: 20px;
     border: 1px transparent;
     border-radius: 5px;
+
 }
 form > div > input[type=submit]:hover {
-    background-color: #295a58;
+    background-color: #295a58; 
 }
 form > div > a{
     display: block;
@@ -74,11 +77,28 @@ form > div > a{
     text-align: center;
     border: 1px solid #49a09d;
     padding: 10px;
-    margin-top: 5px;
     border-radius: 5px;
 }
 form > div > a:hover{
     background-color: #295a58;
     color: white;
 
+}
+form > div > span{
+    display: inline-block;  
+    color: rgba(255, 255, 255, 0.651);
+    width: 40px;
+    padding: 10px;
+}
+form > div > input{
+    background-color: #5eafac ;
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    width: calc(100% - 44.39px);
+    transform: translateY(-11px);
+}
+div.campo > input:focus-within {
+    background-color: white;
+    border: transparent;
 }
