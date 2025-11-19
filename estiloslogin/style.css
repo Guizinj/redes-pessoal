@@ -101,6 +101,9 @@ form > div > span{
     width: 40px;
     padding: 10px;
 }
+form > div > span:hover{
+    transform: scale(1.1);
+}
 form > div > input{
     background-color: #5eafac ;
     border-radius: 10px;
